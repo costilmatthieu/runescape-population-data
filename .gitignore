@@ -43,3 +43,6 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# marimo session artifacts
+**/__marimo__/session/

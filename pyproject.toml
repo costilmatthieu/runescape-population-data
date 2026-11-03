@@ -14,6 +14,7 @@ dependencies = [
     "scipy>=1.15",
     "statsmodels>=0.14",
     "ruptures>=1.1.9",
+    "sqlglot>=30.27.0",
 ]
 
 [dependency-groups]
