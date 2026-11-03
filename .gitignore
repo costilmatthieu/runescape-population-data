@@ -1,0 +1,45 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# marimo
+.marimo/
+marimo/_static/
+
+# Python testing / linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data - never version raw datasets
+data/raw/
+data/staging/
+data/processed/
+
+# Database files
+*.db
+*.db.gz
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
